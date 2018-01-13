@@ -5,14 +5,18 @@
   </head>
 
   <body>
-    <h1 id="GameJumper"></h1>
+    <center>
+      <h1 id="GameJumper"></h1>
 
-    <button onclick="Toll()">Klick mich!</button>
+      <button onclick="Toll()">Klick mich!</button>
 
-    <script>
-      function Toll(){
-        document.getElementById("GameJumper").innerHTML = "GameJump ist toll oder auch net";
-      }
-    </script>
+      <script>
+        var kicker = 0
+        function Toll(){
+          kicker = kicker + 1;
+          document.getElementById("GameJumper").innerHTML = "GameJump ist toll oder auch net. Du hast bereits " + kicker + " mal gekickt!";
+        }
+      </script>
+    </center>
   </body>
 </html>
