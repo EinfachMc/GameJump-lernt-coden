@@ -2,19 +2,22 @@
 <html>
   <head>
     <link rel="stylesheet" href="stylesheet.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="icon" href="favicon.png" sizes="16x16" type="image/png"> -->
+    <title>GameJumps Kicker Spiel</title>
   </head>
 
   <body>
     <center>
-      <h1 id="GameJumper"></h1>
-
+      <h1 id="GameJumper">Du hast schon 0 Mal gekickt!</h1>
       <button onclick="Toll()">Klick mich!</button>
 
       <script>
         var kicker = 0
         function Toll(){
           kicker = kicker + 1;
-          document.getElementById("GameJumper").innerHTML = "GameJump ist toll oder auch net. Du hast bereits " + kicker + " mal gekickt!";
+          document.getElementById("GameJumper").innerHTML = "Du hast schon " + kicker + " Mal gekickt!";
         }
       </script>
     </center>
