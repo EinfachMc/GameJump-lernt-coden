@@ -1,5 +1,5 @@
 body{
-    font-family: Gang of Three;
+    font-family: Arial;
 }
 
 button{
@@ -9,10 +9,12 @@ button{
 }
 
 #GameJumper{
-    font-size: 16pt;
+    font-size: 25pt;
     color: green;
+    font-weight:900;
 }
 
 #Werbung{
-    font-size: 20pt;
+    font-size: 30pt;
+    font-weight: 1000;
 }

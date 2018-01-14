@@ -8,7 +8,7 @@
     <title>GameJumps Kicker Spiel</title>
   </head>
 
-  <body>
+  <body background="../bg.png">
     <center>
         <h2 strong>Ich habe etwas geschafft</h2>
         <img src="../Hund.jpg" alt="Hund mit Hörnern">
@@ -21,10 +21,19 @@
         <h5 id="Werbung">
             <a href="https://www.youtube.com/channel/UCAKe6_JXxNLDJ4H4VrPueMA"> Zum Ersteller (Bitte abonnieren) </a>
         </h5>
+        <p id="Timer"></p>
       <script>
         var kicker = 0
         function Toll(){
-          kicker = kicker + 1;
+          if (kicker >= 10 && kicker < 99) {
+            kicker = kicker + 2;
+
+          }else if (kicker >= 100){kicker = kicker + 5
+
+          }else {kicker = kicker + 1
+
+          }
+
 
           document.getElementById("GameJumper").innerHTML = "Du hast schon " + kicker + " mal gekickt!";
 
