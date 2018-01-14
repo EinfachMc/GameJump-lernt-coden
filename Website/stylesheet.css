@@ -1,9 +1,18 @@
 body{
-  font-family: Gang of Three;
+    font-family: Gang of Three;
 }
 
 button{
   width: 80%;
-  hight: 80%;
+  height: 80%;
   font-family: Arial;
+}
+
+#GameJumper{
+    font-size: 16pt;
+    color: green;
+}
+
+#Werbung{
+    font-size: 20pt;
 }
