@@ -1,9 +1,9 @@
 body{
-  background: lightblue;
-  font-family: Arial;
+  font-family: Gang of Three;
 }
 
 button{
-  width: 50%;
+  width: 80%;
+  hight: 80%;
   font-family: Arial;
 }

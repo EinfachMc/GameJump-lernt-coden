@@ -8,17 +8,24 @@
     <title>GameJumps Kicker Spiel</title>
   </head>
 
-  <body>
+  <body background="file:///C:/Users/nikmu/Desktop/Untitled%201.png">
     <center>
-      <h1 id="GameJumper">Du hast schon 0 Mal gekickt!</h1>
-      <button onclick="Toll()">Klick mich!</button>
+      <h2 strong>Ich habe etwas geschaft</h2 strong>
+      <img src="file:///C:/Users/nikmu/Desktop/Download%20(7).jpg" alt="Hund mit hörnern">
+      <h3>
+      <font size="16pt" color="green" id="GameJumper">Du hast schon 0 Mal gekickt!</font>
+    </h3>
+      <h5>
+        <button onclick="Toll()">Klick mich!</button>
+      </h5>
 
       <script>
         var kicker = 0
         function Toll(){
           kicker = kicker + 1;
           document.getElementById("GameJumper").innerHTML = "Du hast schon " + kicker + " Mal gekickt!";
-        }
+
+          }
       </script>
     </center>
   </body>
