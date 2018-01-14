@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="Hund.jpg" sizes="16x16" type="image/png">
+    <title>Auflösung</title>
+  </head>
+  <body background="bg.png">
+    <center>
+      <h1>
+        <a href="index.html"> Zur start Seite </a>
+      </h1>
+        <h2 strong id="Überschrift">Ich habe etwas geschafft</h2>
+        <img id="Bild" src="Bp.png" alt="Mein YT Profielbild">
+        <h3 id="GameJumper">
+            Du hast schon 0 mal gekickt!
+        </h3>
+        <h4>
+          <button onclick="Toll()">Klick mich!</button>
+        </h4>
+        <h5 id="Werbung">
+            <a href="https://www.youtube.com/channel/UCAKe6_JXxNLDJ4H4VrPueMA"> Zum Ersteller (Bitte abonnieren) </a>
+        </h5>
+        <h6 id="Anleitung">
+          <strong> Clicke zum herunterladen auf das Bild
+        </h6>
+        <h7>
+        <a href="http://download854.mediafire.com/we8961pa7mcg/co9xth1nojnxvv3/Schlowwiii.png">
+          <img src="Schlowwiii.png" alt="Schlowwiii's Skinrender">
+        </a>
+      </h7>
+      <script>
+        var kicker = 0
+        function Toll(){
+          if (kicker >= 10 && kicker < 99) {
+            kicker = kicker + 2;
+
+          }else if (kicker >= 100){kicker = kicker + 5
+
+          }else {kicker = kicker + 1
+
+          }
+
+
+          document.getElementById("GameJumper").innerHTML = "Du hast schon " + kicker + " mal gekickt!";
+
+
+          }
+      </script>
+    </center>
+  </body>
+</html>

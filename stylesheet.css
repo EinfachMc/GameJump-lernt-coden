@@ -18,3 +18,17 @@ button{
     font-size: 30pt;
     font-weight: 1000;
 }
+
+#Überschrift{
+  color: red;
+}
+
+#Anleitung{
+   font-size: 25pt;
+}
+
+#Bild{
+   height: 225px;
+   width: 225px;
+
+}
