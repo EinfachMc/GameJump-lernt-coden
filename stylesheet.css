@@ -4,8 +4,9 @@ body{
 
 button{
   width: 80%;
-  height: 80%;
-  font-family: Arial;
+  height: 80px;
+  font-family: Night Machine;
+  font-size: 40pt;
 }
 
 #GameJumper{
@@ -31,4 +32,9 @@ button{
    height: 225px;
    width: 225px;
 
+}
+
+#Schlowwiii{
+  height: 900px;
+  weight: 900px;
 }
