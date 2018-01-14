@@ -13,7 +13,7 @@
         <h2 strong>Ich habe etwas geschafft</h2>
         <img src="../Hund.jpg" alt="Hund mit Hörnern">
         <h3 id="GameJumper">
-            Du hast schon 0 Mal gekickt!
+            Du hast schon 0 mal gekickt!
         </h3>
         <h4>
           <button onclick="Toll()">Klick mich!</button>
@@ -25,7 +25,10 @@
         var kicker = 0
         function Toll(){
           kicker = kicker + 1;
-          document.getElementById("GameJumper").innerHTML = "Du hast schon " + kicker + " Mal gekickt!";
+
+          document.getElementById("GameJumper").innerHTML = "Du hast schon " + kicker + " mal gekickt!";
+
+
           }
       </script>
     </center>
